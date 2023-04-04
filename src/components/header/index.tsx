@@ -1,19 +1,31 @@
-import { HeaderContainer } from "./styles";
+import {
+  CartIcon,
+  HeaderContainer,
+  LocaleAndCart,
+  LocaleMap,
+  CoffeLogo,
+} from "./styles";
 import Logo from "../../assets/Logo.svg";
 import { NavLink } from "react-router-dom";
-import { ShoppingCart } from "phosphor-react";
+import { ShoppingCart, MapPin } from "phosphor-react";
 
 export function Header() {
   return (
     <HeaderContainer>
-      <nav>
-        <NavLink to="/" title="home">
-          <img src={Logo} alt="" />
-        </NavLink>
+      <NavLink to="/" title="home">
+        <CoffeLogo src={Logo} alt="" />
+      </NavLink>
+      <LocaleAndCart>
+        <LocaleMap>
+          <MapPin size={24} alt="" color={"#8047F8"} weight={"fill"} />
+          <p>São Paulo,SP</p>
+        </LocaleMap>
         <NavLink to="/checkout" title="Carrinho de Compras">
-          <ShoppingCart size={24} />
+          <CartIcon>
+            <ShoppingCart size={24} color={"#c47f17"} />
+          </CartIcon>
         </NavLink>
-      </nav>
+      </LocaleAndCart>
     </HeaderContainer>
   );
 }
