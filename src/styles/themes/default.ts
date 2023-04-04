@@ -1,10 +1,10 @@
 export const defaultTheme = {
   // Product
   "yellow-dark": "#C47F17",
-  yellow: "#DBAC2C",
+  "yellow-product": "#DBAC2C",
   "yellow-light": "#F1E9C9",
   "purple-dark": "#4B2995",
-  purple: "#8047F8",
+  "purple-product": "#8047F8",
   "purple-light": "#EBE5F9",
 
   //Base
@@ -17,6 +17,6 @@ export const defaultTheme = {
   "base-button": "#E6E5E5",
   "base-input": "#EEEDED",
   "base-card": "#F3F2F2",
-  bacground: "#FAFAFA",
-  white: "#FFFFFF",
+  "background-base": "#FAFAFA",
+  "white-base": "#FFFFFF",
 };
