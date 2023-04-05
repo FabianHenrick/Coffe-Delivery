@@ -6,8 +6,9 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 32px 160px;
-  gap: 820px;
+  gap: 45vw;
   height: 104px;
+  width: 100;
   left: 0px;
   right: 0px;
   top: 0px;
