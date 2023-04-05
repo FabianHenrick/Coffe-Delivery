@@ -2,21 +2,20 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.header`
   display: flex;
-  width: 1440px;
+  width: 100vw;
   height: 544px;
-  padding: 94px 160px 94px 160px;
+  padding: 94px 160px;
   gap: 56px;
 `;
 export const BannerDivision = styled.div`
   display: grid;
-
   flex-direction: column;
 `;
 export const TittlesDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 588px;
+  width: 34vw;
   height: 192px;
   padding: 0px;
 `;
@@ -71,4 +70,9 @@ export const BenefitsText = styled.p`
 
 export const BenefitsDiv = styled.div`
   display: flex;
+`;
+
+export const CoffeImg = styled.img`
+  width: 476px;
+  height: 360px;
 `;

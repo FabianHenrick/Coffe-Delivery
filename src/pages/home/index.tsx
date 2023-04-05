@@ -9,6 +9,7 @@ import {
   BannerTittle,
   BenefitsText,
   Benefits,
+  CoffeImg,
 } from "./styles";
 
 export function Home() {
@@ -44,7 +45,7 @@ export function Home() {
             </Benefits>
           </BenefitsDivision>
         </BannerDivision>
-        <img src={CoffeBanner} alt="" />
+        <CoffeImg src={CoffeBanner} alt="" />
       </BannerContainer>
     </div>
   );
