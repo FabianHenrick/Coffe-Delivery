@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: row;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   padding: 32px 160px;
   gap: 45vw;
-  height: 104px;
+  max-height: 104px;
   width: 100;
   left: 0px;
   right: 0px;
@@ -19,6 +20,7 @@ export const HeaderContainer = styled.header`
   font-size: 14px;
   line-height: 130%;
   color: ${(props) => props.theme["purple-product"]};
+  margin: 0 10vw;
 `;
 
 export const LocaleMap = styled.div`
@@ -71,7 +73,6 @@ export const LocaleAndCart = styled.div`
 `;
 
 export const CoffeLogo = styled.img`
-  flex-grow
   width: 84.95px;
   height: 40px;
 `;
