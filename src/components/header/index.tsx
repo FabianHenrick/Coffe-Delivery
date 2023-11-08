@@ -1,3 +1,9 @@
+import { HeaderContainer } from "./styles";
+import LogoCoffe from "srcassetsLogo.svg";
 export function header() {
-  return <div></div>;
+  return (
+    <HeaderContainer>
+      <img src={LogoCoffe}></img>
+    </HeaderContainer>
+  );
 }
