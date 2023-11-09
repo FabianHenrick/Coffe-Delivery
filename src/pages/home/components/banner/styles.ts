@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const BannerContainer = styled.header`
   display: flex;
   height: 544px;
-  margin: 15px 10vw;
-  padding: 92px 10%;
+  padding: 160px;
 `;
 export const BannerDivision = styled.div`
   display: flex;
@@ -13,10 +12,9 @@ export const BannerDivision = styled.div`
 export const TittlesDiv = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  width: 600px;
+  width: auto;
   height: 192px;
 `;
 export const BannerTittle = styled.h1`

@@ -7,6 +7,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 32px 160px;
+  height: 32px;
   gap: 45vw;
   max-height: 104px;
   width: 100;
@@ -20,7 +21,6 @@ export const HeaderContainer = styled.header`
   font-size: 14px;
   line-height: 130%;
   color: ${(props) => props.theme["purple-product"]};
-  margin: 0 10vw;
 `;
 
 export const LocaleMap = styled.div`
